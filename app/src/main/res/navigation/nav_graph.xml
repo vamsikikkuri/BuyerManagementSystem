@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buyersList">
+    <fragment
+        android:id="@+id/buyersList"
+        android:name="com.example.buyermanagement.BuyersList"
+        android:label="fragment_buyers_list"
+        tools:layout="@layout/fragment_buyers_list" >
+        <action
+            android:id="@+id/action_buyersList_to_buyerDetailsFrag"
+            app:destination="@id/buyerDetailsFrag" />
+        <action
+            android:id="@+id/action_buyersList_to_productCategoryFrag"
+            app:destination="@id/productCategoryFrag" />
+        <action
+            android:id="@+id/action_buyersList_to_takeOrderFrag"
+            app:destination="@id/takeOrderFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/buyerDetailsFrag"
+        android:name="com.example.buyermanagement.BuyerDetailsFrag"
+        android:label="fragment_buyer_details"
+        tools:layout="@layout/fragment_buyer_details" >
+        <action
+            android:id="@+id/action_buyerDetailsFrag_to_takeOrderFrag"
+            app:destination="@id/takeOrderFrag" />
+        <action
+            android:id="@+id/action_buyerDetailsFrag_to_buyersList"
+            app:destination="@id/buyersList" />
+    </fragment>
+    <fragment
+        android:id="@+id/takeOrderFrag"
+        android:name="com.example.buyermanagement.TakeOrderFrag"
+        android:label="fragment_take_order_list"
+        tools:layout="@layout/fragment_take_order_list" >
+        <action
+            android:id="@+id/action_takeOrderFrag_to_cartFrag"
+            app:destination="@id/cartFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFrag"
+        android:name="com.example.buyermanagement.CartFrag"
+        android:label="fragment_cart"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFrag_to_buyerDetailsFrag"
+            app:destination="@id/buyerDetailsFrag"
+            app:popUpTo="@id/buyerDetailsFrag"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFrag"
+        android:name="com.example.buyermanagement.ProductFrag"
+        android:label="fragment_product_list"
+        tools:layout="@layout/fragment_product_list" />
+    <fragment
+        android:id="@+id/productCategoryFrag"
+        android:name="com.example.buyermanagement.ProductCategoryFrag"
+        android:label="ProductCategoryFrag" >
+        <action
+            android:id="@+id/action_productCategoryFrag_to_productFrag"
+            app:destination="@id/productFrag" />
+    </fragment>
+
+</navigation>

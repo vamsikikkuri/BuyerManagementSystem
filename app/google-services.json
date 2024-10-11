@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "616189412788",
+    "firebase_url": "https://buyermanagement-c2a1d.firebaseio.com",
+    "project_id": "buyermanagement-c2a1d",
+    "storage_bucket": "buyermanagement-c2a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616189412788:android:a2b6ac8a6ac6f0ce931ee1",
+        "android_client_info": {
+          "package_name": "com.example.buyermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616189412788-56sb2otq4a0k5bt1bqbo6eukarbe6814.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDViPLTzLI4s-g9euSruHFRba-rjiPjVs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616189412788-56sb2otq4a0k5bt1bqbo6eukarbe6814.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">BuyerManagement</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="previous">Previous Order Details</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="address">Address</string>
+    <string name="share_icon">Share Icon</string>
+    <string name="mob_no">Mobile No</string>
+    <string name="name">Name</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="enter_buyer_name">Enter Buyer Name</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="add_buyer">Add Buyer</string>
+    <string name="new_order">New Order</string>
+    <string name="search_for_buyer">Search For Buyer</string>
+    <string name="select_date">Select Date</string>
+    <string name="company_name">Company Name</string>
+    <string name="category">Categories: </string>
+    <string name="iron">IRON</string>
+    <string name="wire">WIRE</string>
+    <string name="price">Price</string>
+    <string name="cart">cart</string>
+    <string name="zero_orders">zero orders</string>
+    <string name="no_orders_in_cart_right_now">No orders in cart right now!</string>
+    <string name="products">Products</string>
+    <string name="cement">CEMENT</string>
+    <string name="enter_company_name">Enter Company Name</string>
+    <string name="enter_model">Enter Model</string>
+    <string name="enter_price">Enter Price</string>
+    <string name="enter_stock">Enter Stock</string>
+    <string name="button">Button</string>
+    <string name="add_product">ADD PRODUCT</string>
+    <string name="update">Update</string>
+    <string name="new_price">NEW PRICE</string>
+    <string name="new_stock">NEW STOCK</string>
+    <string name="buyers">Buyers</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="bank_details">Bank Details</string>
+    <string name="upi_details">UPI Details</string>
+    <string name="online_ac_details">Online A/C Details</string>
+    <string name="user_settings">User Settings</string>
+    <string name="open_drawer">Open Nav Drawer</string>
+    <string name="close_drawer">Close Nav Drawer</string>
+    <string name="user_name_goes_here">User Name goes here</string>
+    <string name="user_email_goes_here">User email goes here</string>
+    <string name="add_category">Add New Category</string>
+    <string name="product_categories">Product Categories</string>
+    <string name="enter_new_category">Enter New Category</string>
+    <string name="submit">submit</string>
+    <string name="enter_selling_price">Enter Selling Price</string>
+    <string name="enter_selling_quantity">Enter Selling Quantity</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="enter_vehicle_number">Enter Vehicle Number</string>
+    <string name="submit_order">SUBMIT ORDER</string>
+    <string name="paid">Paid</string>
+    <string name="balance">Balance</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="today">Today</string>
+    <string name="quantity">quantity</string>
+    <string name="model">model</string>
+    <string name="order_date">Order Date</string>
+</resources>

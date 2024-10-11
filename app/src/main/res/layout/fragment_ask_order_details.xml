@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    tools:context=".AskOrderDetailsFrag">
+
+
+    <EditText
+        android:id="@+id/enter_selling_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_gravity="center"
+        android:hint="@string/enter_selling_price"
+        android:layout_margin="8dp"
+        android:autofillHints="no"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/enter_selling_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_selling_quantity"
+        android:layout_gravity="center"
+        android:autofillHints="no"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_to_cart"
+        android:text="@string/add_to_cart"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+    />
+
+
+
+
+</LinearLayout>

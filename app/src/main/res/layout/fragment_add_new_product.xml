@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    app:layout_constraintCircleRadius="8dp"
+    tools:context=".AddNewProduct">
+
+    <EditText
+        android:id="@+id/edit_new_prod_comp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_company_name"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_new_prod_comp_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_model"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        >
+    <EditText
+        android:id="@+id/edit_new_prod_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="50"
+        android:hint="@string/enter_price"
+        android:inputType="number"
+        android:importantForAutofill="no"
+        />
+
+    <EditText
+        android:id="@+id/edit_new_prod_stock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="50"
+        android:hint="@string/enter_stock"
+        android:inputType="number"
+        android:autofillHints="no"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit_new_prod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_product"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>

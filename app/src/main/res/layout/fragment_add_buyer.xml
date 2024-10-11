@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/add_buyer_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".AddBuyerFrag">
+
+
+
+    <EditText
+        android:id="@+id/buyer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/enter_buyer_name"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/buyer_address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/buyer_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/enter_address"
+        android:inputType="textPersonName"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/buyer_mob_no"
+        app:layout_constraintEnd_toEndOf="@+id/buyer_name"
+        app:layout_constraintStart_toStartOf="@+id/buyer_name"
+        app:layout_constraintTop_toBottomOf="@+id/buyer_name"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/buyer_mob_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="@string/enter_mobile_number"
+        android:inputType="phone"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/add_buyer"
+        app:layout_constraintEnd_toEndOf="@+id/buyer_address"
+        app:layout_constraintStart_toStartOf="@+id/buyer_address"
+        app:layout_constraintTop_toBottomOf="@+id/buyer_address"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/add_buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/add_buyer"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/buyer_mob_no"
+        app:layout_constraintStart_toStartOf="@+id/buyer_mob_no"
+        app:layout_constraintTop_toBottomOf="@+id/buyer_mob_no" />
+
+</LinearLayout>

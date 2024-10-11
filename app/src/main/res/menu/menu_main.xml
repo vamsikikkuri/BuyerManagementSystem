@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.buyermanagement.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search_for_buyer"
+        android:icon="@drawable/ic_search_icon"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+    <group>
+        <item
+            android:id="@+id/action_goto_products"
+            android:title="@string/product_categories"
+            android:icon="@drawable/ic_product_category"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>

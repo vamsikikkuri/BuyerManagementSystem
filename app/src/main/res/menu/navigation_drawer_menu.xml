@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item android:title="@string/bank_details">
+        <menu>
+            <item
+                android:title="@string/upi_details"
+                android:id="@+id/action_upi_share"
+                />
+            <item
+                android:title="@string/online_ac_details"
+                android:id="@+id/action_online_share"
+                />
+        </menu>
+    </item>
+    <item android:title="@string/user_settings">
+    <menu>
+        <item
+        android:title="@string/sign_out"
+        android:id="@+id/action_sign_out"/>
+    </menu>
+    </item>
+</menu>
